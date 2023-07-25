@@ -60,7 +60,7 @@ function App() {
         exercises3={part3.exercises}
       />
       <Total
-        sum={exercises1+exercises2+exercises3}
+        sum={part1.exercises+part2.exercises+part3.exercises}
       />
     </div>
   );
